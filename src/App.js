@@ -24,8 +24,6 @@ function App() {
    /*******************************************/
   /* greeterAddress atamasını yapacak değişken ve fonksiyonu ayarlayalım*/
   const [greeterAddress, setGreeterAddress] = useState();
-    
-  {/*******************************************/}
 
   // Metamask izni için kullanıyoruz.
   async function requestAccount() {
