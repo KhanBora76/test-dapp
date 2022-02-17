@@ -84,7 +84,7 @@ function App() {
         </div>
         {/****************************************************************************/}
 
-        <p>(Please Change the Network)</p>
+        <p>(Please change the Network from MetaMask)</p>
         <button onClick={fetchGreeting}>Call</button>
         <button onClick={setGreeting}>Re-Configure</button>
         <input onChange={e => setGreetingValue(e.target.value)} placeholder="Change Configuration" />
